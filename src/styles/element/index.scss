@@ -1,0 +1,5 @@
+// 更改命名空间
+@forward 'element-plus/theme-chalk/src/mixins/config.scss' with (
+  $namespace: 'ys'
+);
+@use 'element-plus/theme-chalk/src/index.scss' as *;
