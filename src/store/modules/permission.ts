@@ -1,10 +1,6 @@
 import { defineStore } from 'pinia';
-import { getPermissionInfo } from '@/api/login';
 import { useUserStore } from './user';
-import { setupGloal } from '@/micro-app/setup';
 import { cloneDeep } from 'lodash-es';
-import { storeUserPerssion2Local } from '@/hooks/user-permission';
-import { AppCategory } from '@/enums';
 import { getPubStaticFile } from '@/utils';
 
 interface Permission {

@@ -1,5 +1,3 @@
-import Login from '../views/login/login.vue';
-import HomeView from '../views/home/home.vue';
 import type { RouteRecordRaw } from 'vue-router';
 
 /**
@@ -19,11 +17,6 @@ export const STATIC_ROUTES: RouteRecordRaw[] = [
         component: HomeView
       }
     ]
-  },
-  {
-    path: '/login',
-    name: 'login',
-    component: Login
   },
   {
     path: '/:page*',
