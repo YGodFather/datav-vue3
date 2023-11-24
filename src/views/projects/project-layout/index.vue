@@ -14,6 +14,5 @@ defineOptions({
 <style scoped lang="scss">
 .ys-project-layout {
   height: 100%;
-  background: green;
 }
 </style>
